@@ -1,6 +1,44 @@
 
-.row {
-    width: 300;
-    height: 300;
+.rectangle {
+    width: 100px;
+    height: 100px;
     background-color: aquamarine;
+}
+
+.portrait-image {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(37, 58, 51);
+}
+
+.portrait-image img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.portraint-image-full{
+    display: flex;
+    flex-direction: column;
+}
+
+.fade-in-out {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
