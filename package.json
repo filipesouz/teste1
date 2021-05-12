@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "filipe",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "easy-livereload": "^1.4.3",
+    "express": "^4.17.1",
+    "node-dev": "^7.0.0"
+  }
 }
